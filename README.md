@@ -4,3 +4,5 @@
 * Task 2
   * In the second task you will tweak different JaBeJa configurations in order to find the smallest edge cuts for the given graphs. 
   * In this task, you are to analyze how the performance of the algorithm is affected when different parameters are changed, specially the effect of simulated annealing. Currently, Ja-Be-Ja uses a linear function to decrease the temperature (lines 9 - 13 of the Ja-Be-Ja algorithm) and the temperature is multiplied to the cost function (line 26 of the Ja-Be-Ja algorithm). You will now analyze how changing the simulated annealing parameters and the acceptance probability function affects the performance of Ja-Be-Ja.
+* Optional task for extra bonus
+  * Define your own acceptance probability function or change the Ja-Be-Ja algorithm (in order to improve its performance) and evaluate how your changes affects the performance of graph partitioning. 
